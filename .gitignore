@@ -17,8 +17,8 @@ pnpm-debug.log*
 .env
 .env.production
 
-# macOS-specific files
-.DS_Store
-
-# jetbrains setting folder
-.idea/
+prisma/*.db
+prisma/*.journal
+prisma/*_index
+prisma/*.db-shm
+prisma/*.db-wal
