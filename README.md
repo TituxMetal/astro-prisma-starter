@@ -1,9 +1,6 @@
-# Astro Course Files
+# Astro Prisma Starter
 
-This is the starter project for the Astro course from
-[Chris Pennington (Coding in Public)](https://www.youtube.com/@CodinginPublic/videos)
-
-It uses the following technologies:
+This is a starter project that integrates Prisma with an Astro. It uses the following technologies:
 
 - Astro
 - React
@@ -11,6 +8,11 @@ It uses the following technologies:
 - TypeScript
 - ESLint
 - Prettier
+- Prisma
+- lisql
+- Turso
+
+It demonstrates how to connect to a Turso database and perform basic operations.
 
 ## Development
 
