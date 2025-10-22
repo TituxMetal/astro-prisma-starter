@@ -15,8 +15,8 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/node": "^9.0.0",
-    "@astrojs/react": "^3.6.2",
-    "@astrojs/tailwind": "^5.1.1",
+    "@astrojs/react": "^4.0.0",
+    "@astrojs/tailwind": "^6.0.0",
     "@libsql/client": "^0.15.0",
     "@prisma/adapter-libsql": "^6.0.0",
     "@prisma/client": "^6.0.0",
