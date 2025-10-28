@@ -10,5 +10,5 @@ module.exports = {
   singleQuote: true,
   tabWidth: 2,
   trailingComma: 'none',
-  plugins: ['prettier-plugin-astro', 'prettier-plugin-tailwindcss']
+  plugins: ['prettier-plugin-astro']
 }

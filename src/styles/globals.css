@@ -1,17 +1,21 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @layer base {
   html {
-    @apply h-full;
+    height: 100%;
   }
 
   body {
-    @apply flex min-h-screen flex-col font-sans text-zinc-100 antialiased;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, sans-serif;
+    color: rgb(244 244 245);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
-  @media (prefers-color-scheme: dark) or (prefers-color-scheme: light) {
+  @media (prefers-color-scheme: dark), (prefers-color-scheme: light) {
     html {
       color-scheme: dark;
     }

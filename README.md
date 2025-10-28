@@ -1,28 +1,37 @@
 # Astro Prisma Starter
 
-This is a starter project that integrates Prisma with an Astro. It uses the following technologies:
+This is a starter project that integrates Prisma with Astro. It uses the following technologies:
 
 - Astro
 - React
-- Tailwind CSS
+- Tailwind CSS V4
 - TypeScript
 - ESLint
 - Prettier
 - Prisma
-- lisql
-- Turso
+- SQLite
+- Bun
 
-It demonstrates how to connect to a Turso database and perform basic operations.
+It demonstrates how to connect to a local SQLite database and perform basic operations.
 
 ## Development
 
 ```bash
-yarn dev
+bun dev
 ```
 
 ## Production
 
 ```bash
-yarn build
-yarn preview
+bun run build
+bun preview
+```
+
+## Database Setup
+
+Initialize the database:
+
+```bash
+bunx prisma migrate dev
+bunx prisma db seed
 ```
