@@ -24,7 +24,7 @@
   "packageManager": "bun@1.1.0",
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.16",
-    "@types/node": "^24.0.0",
+    "@types/node": "^25.0.0",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
     "@typescript-eslint/parser": "^8.20.0",
